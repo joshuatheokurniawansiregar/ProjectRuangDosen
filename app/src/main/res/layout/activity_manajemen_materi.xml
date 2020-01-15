@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".manajemen_materi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beranda"
+            android:id="@+id/btnHome"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manajemen"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Definisi"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1.Manajer sebagai seni(art) \n    Menurut Mary Parker Follet: “Manajemen adalah seni dalam menyelesaikan pekerjaan”. Artinya bahwa manajer dalam mencapai tujuan organisasi melalui pengaturan orang lain. \n\n 2.Manajement sebagai ilmu pengetahuan(science) \n     Menurut Luther Gullick : “Managejemen adalah suatu bidang ilmu pengetahuan yang berusaha secara sistematis untuk memahami mengapa dan bagaimana manusia bekerja bersma untuk mencapai tujuan dan membuat kerjasama ini lebih bermanfaat. \n\n 3.Manajemen sebagai suatu proses(process) \n     Stoner mengemukakan, “Manajemen adalah proses perencanaan, pengorganisasian, pengarahan, dan pengaswasan usah-usah para anggota 		organisasi dan penggunaan sumber daya organisasi lainnya agara mencapai tujuan organisasi yang telah ditetapkan."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Fungsi-Fungsi Manajemen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Menurut para ahli \n a. George Terry : POAC \n b. Henry Fayol : POMCC \n c. Ernest Dale : POSDIRC	\n d. Koontz dan O’Donnel : POSDC \n\n •	P : Planning \n •	O : Organazing \n •	A : Actuating \n •	C : Controlling \n •	M: Motivating \n •	C : Conditioning \n •	S : Staffing \n •	D : Directing \n •	I : Inovating \n •	R : Representing"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Unsur-Unsur Manajemen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Dalam membentuk sistem manajerial yang baik dibutuhkan unsur-unsur manajemen di dalamnya. Semua unsur tersebut saling melengkapi satu sama lain, dan jika salah satu unsur tersebut tidak ada maka berimbas pada hasil keseluruhan pencapaian suatu organisasi.Berikut ini adalah unsur-unsur manajemen tersebut: \n\n 1. Manusia (Human) \n    Faktor yang paling menentukan dalam manajemen adalah manusia. Dalam praktiknya, manusia lah yang membuat tujuan dan melakukan proses pencapaian tujuan tersebut. Dengan kata lain, proses kerja tidak akan terjadi bila terdapat unsur manusia di dalamnya.\n\n 2. Uang (Money) \n  Uang merupakan unsur manajemen yang sangat berpengaruh karena hasil kegiatan dapat diukur dari jumlah yang beredar di suatu perusahaan. Unsur uang dapat menjadi alat dalam proses pencapaian tujuan dengan penggunaannya yang diperhitungkan secara rasional. Penggunaan uang dalam suatu perusahaan adalah untuk biaya operasional, seperti gaji pegawai, pembelian dan perawatan peralatan kantor, dan peralatan lainnya yang dibutuhkan oleh perusahaan.\n\n 3. Materials (Bahan) \n    Bahan ini terdiri dari raw material (bahan setengah jadi) dan bahan jadi. Unsur material merupakan faktor penting dalam dunia usaha karena hasil yang baik hanya bisa dicapai bila terdapat material yang baik. \n\n 4. Mesin (Machines) \n    Mesin sangat dibutuhkan manusia untuk melakukan pekerjaan yang sulit menjadi lebih mudah dan cepat. Penggunaan mesin akan meningkatkan hasil dan keuntungan serta membuat proses kerja menjadi lebih efektif dan efisien.\n\n 5. Metode (Methods) \n Proses pelaksanaan kerja hanya dapat berjalan dengan efektif dan efisien bila dilakukan dengan metode yang tepat. Suatu metode kerja harus mempertimbangkan sasaran, fasilitas, waktu, uang, dan kegiatan bisnis.Selain itu, metode yang tepat dan baik juga harus dipahami oleh manusia yang menjalankannya. Dengan kata lain, sebuah metode hanya bisa berjalan dengan baik bila manusia terlibat di dalamnya. \n\n 6. Pasar (Market) \n  Proses pemasaran produk merupakan unsur manajemen yang sangat krusial bagi sebuah perusahaan. Jika tidak ada pemasaran maka barang tidak akan laku.Suatu bisnis bisa menguasai pasar bila menawarkan produk yang berkualitas dan sesuai dengan minat dan daya beli konsumen. Itulah sebabnya proses pemasaran sangat erat hubungannya dengan kualitas barang yang dipasarkan."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Bidang-bidang manajemen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="1) Manajemen system produksi"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.	Perancagan sistem produksi \n - rancangan produk \n - volume produksi \n - proeses prdouksi \n - lokasi dan tata letak \n - rancagan pekerjaan \n\n b.	Pengendalian sistem produksi \n -	Pengendalian mutu \n -	Kebutuhan perseidaan yang tepat dan control persediaan secara ketat \n\n c.	Pengawasan produksi \n Pengawasan produksi bertujuan untuk menjamin terlaksananya kegiatan produksi sesuai dengan apa yang telah direncanakan. Hal ini berkaitan dengan apakah semua proses produksi dilakukan dengan benar atau tidak, apakah terdapat masalah yang timbul dalam proses produksi atau tidak. Tujuan utama pengawasan produksi adalah untuk mencegah dan memperbaiki penyimpangan, kesalahan serta kegiatan lain yang tidak sesuai dengan prosedur perencanaan. Sehingga proses produksi berjalan dengan cara terbaik, biaya terendah serta tepat pada waktunya."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="2)	Manajemen Pemasaran"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manajemen pemasaran adalah salah satu bidang oprasional dalam perusahaan yang pelu penanganan sungguh-sungguh, hal ini menyangkut berhasil atau tidaknya produk yang telah dibuat sampai kepada tangan konsumen. Manajemen pemasaran merupakan sebuah kegiatan yang berhubungan dengan proses perpindahan barang atau jasa dari produsen ke konsumen. Tujuan utama dari manajemen pemasaran pada umumnya adalah untuk meningkatkan volume penjualan dari produk yang telah dihasilkan. "/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>

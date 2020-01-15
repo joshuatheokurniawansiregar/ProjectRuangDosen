@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484594663084",
+    "firebase_url": "https://project-ruang-dosen.firebaseio.com",
+    "project_id": "project-ruang-dosen",
+    "storage_bucket": "project-ruang-dosen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484594663084:android:394f482894a887c656a909",
+        "android_client_info": {
+          "package_name": "com.example.projectruangdosen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484594663084-98967ecpsmmiis56gcoq98opsij25vae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectruangdosen",
+            "certificate_hash": "e343fc4c9c1c9f40a4a494436bd52cc9d03b1441"
+          }
+        },
+        {
+          "client_id": "484594663084-0m23tugt18cbaj8mr3736fg46gro3nhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVADQlXnZEpzX0yuYo3fMa5Fm7CZbiEi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484594663084-0m23tugt18cbaj8mr3736fg46gro3nhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

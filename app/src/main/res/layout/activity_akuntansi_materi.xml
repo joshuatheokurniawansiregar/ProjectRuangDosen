@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".akuntansi_materi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beranda"
+            android:id="@+id/btnHome"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akuntansi"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Akuntansi adalah pengukuran, pengolahan dan komunikasi informasi keuangan tentang entitas ekonomi seperti bisnis dan perusahaan. Bidang akuntansi ini  didirikan oleh seorang ahli dari Italia yaitu Luca Pacioli di tahun 1494."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manfaat Informasi Akuntansi"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manfaat informasi yang dihasilkan akuntansi memiliki manfaat yang diperoleh diantaranya: \n\n •	Sebagai alat ukur keberhasilan maupun kegagalan dari sebuah usaha, dengan cara melihat atau menilai harta dan hutang yang ada di perusahaan. Nilai uang dicatat dan dilaporkan melalui proses akuntansi. Akuntansi dianggap sebagai Bahasa bisnis atau language of business. Semua yang berhubungan dengan kegiatan usaha maka dapat dirasakan manfaatnya dengan adanya ilmu akuntansi. \n •	Akuntansi sebagai penghasil informasi yang oleh pihak manajemen dibutuhkan untuk melakukan perencanaan, sekaligus mengevaluasi dan mengkontrol aktivitas operasional usaha."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Siklus Akuntansi"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="1) Siklus Akuntansi Perusahaan Jasa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1) Transaksi keuangan \n 2) Mencatat transkasi keuangan berdasarkan bukti transaksi. \n 3) Membuat jurnal umum. \n 4) Membuat buku besar. \n 5) Membuat jurnal penyesuaian. \n 6) Membuat laporan keuangan (laporan laba rugi, neraca dan laporan perubahan modal). \n 7) Membuat jurnal penutup. \n 8) Membuat neraca saldo setelah penutupan. "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="2) Siklus Akuntasi Perusahaan Jasa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. Tahap pencatatan \n 1) Transaksi baik dengan internal ataupun transkasi eksternal \n 2) Pengumpulan bukti transkasi \n 3) Mencatat ke jurnal umum, jurnal khusus dan buku besar pembantu. \n 4) Merekapitulasi jurnal umum dan jurnal khusus. \n\nB. Tahap pengikhtisaran \n 1) Membentuk Neraca Saldo \n 2) Menyusun Ayat Jurnal Penyesuaian \n 3) Membentuk Kertas Kerja (Worksheet) dalam bentuk Neraca Lajur \n\nC. Tahap Pelaporan Keuangan \n 1) Menyusun Laporan Keuangan \n 2) Laporan Laba Rugi \n 3) Laporan Perubahan Modal \n 4) Laporan Neraca \n 5) Laporan Arus Kas \n 6) Menyusun Ayat Jurnal Penutup \n 7) Membentuk Neraca Saldo setelah Penutupan \n 8) Menyusun Ayat Jurnal Pembalik "/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
